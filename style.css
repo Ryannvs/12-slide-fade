@@ -11,7 +11,7 @@ body{
 }
 .carrossel{
     position: relative;
-    width: 80%;
+    width: 100%;
     height: 80%;
     box-shadow: 0 0 16px #000;
     border-radius: 12px;
@@ -36,16 +36,16 @@ body{
 
 @keyframes slider {
     0%, 33% {
-        background-image: url(./img/olhos-gato.jpg);
-        --text-description: "Olhos de gato!"
+        background-image: url(./img/ping-pong.jpeg);
+        --text-description: "Onde a diversão sempre acontece!"
     }
     34%, 66% {
-        background-image: url(./img/olhos-cachorro.jpg);
-        --text-description: "Olhos de cachorro!"
+        background-image: url(./img/Cantina.jpeg);
+        --text-description: "Onde compro hot dogs deliciosos!"
     }
     67%, 100% {
-        background-image: url(./img/olhos-aguia.jpg);
-        --text-description: "Olhos de aguia!"
+        background-image: url(./img/aula-front-end.jpeg);
+        --text-description: "Aula de front-end, minha matéria favorita!"
     }
 }
 @keyframes fade {
